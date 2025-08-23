@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAPTCHA</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/rothenburg-decorative" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="img/logo1.ico" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo"><a class="titulo" href="index.html">Carlo´s</a></h1>
+
+        <div class="botonMenu">
+            <button id="mostrarMenu">MENU</button>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="info.html">INFORMACION</a></li>
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+                <li><a href="captcha.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="captchaContainer">
+        <form id="captchaForm">
+            <div class="inputUsuario">
+                <h1>CAPTCHA</h1>
+                <img class="animal" src="" id="imagen" />
+                <label for="inputAnimal">QUÉ ANIMAL ES?</label>
+                <input type="text" id="inputAnimal" name="animal" placeholder="Ingrese el animal aquí" />
+                <p class="mensajeError" id="captchaErroneo"></p>
+                <p class="mensajeCorrecto" id="captchaCorrecto"></p>
+            </div>
+            <div class="botones">
+                <button type="button" class="aceptar" id="btn-aceptar">ACEPTAR</button>
+                <button type="button" id="btn-generarAnimal">
+                    HAGA CLICK PARA GENERAR UN ANIMAL
+                </button>
+
+            </div>
+
+        </form>
+        <a href="contacto.html">
+            <button class="irAPagina" id="ir_a_paginaWeb">IR AL FORMULARIO</button>
+        </a>
+    </div>
+    <footer class="paginaIncompleta">
+        <ul class="redes-sociales">
+            <li>
+                <a href=""><i class="bx bxl-instagram"></i> Instagram</a>
+            </li>
+            <li>
+                <a href=""><i class="bx bxl-whatsapp"></i> Whatsapp</a>
+            </li>
+            <li>
+                <a href=""><i class="bx bxl-facebook-square"></i> Facebook</a>
+            </li>
+        </ul>
+        <button class="botonModo" id="btnModoOscuro">CAMBIAR MODO</button>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

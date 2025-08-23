@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color:gray;
+    text-decoration: underline;
+}
+.noticia{
+    border: 2px;
+    border-style: solid;
+    padding: 10px;
+}
+.resumenNoticia{
+    display: inline;
+    vertical-align: top;
+}

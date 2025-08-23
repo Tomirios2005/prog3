@@ -1,0 +1,7 @@
+.oculto{
+    display: none;
+    width: 20px;
+}
+header nav ul li{
+    display: inline-block;
+}

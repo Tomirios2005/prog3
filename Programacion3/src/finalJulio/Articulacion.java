@@ -37,6 +37,7 @@ public class Articulacion  {
 
                 }
             }
+            visitados.clear();
             dfs_visit(inicio,verticeExc);
 
             if (visitados.size()<vertices.size()-1) {
